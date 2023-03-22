@@ -23,7 +23,7 @@
 ## Instruction
 
 - Key actions
-    ''
+    ```
     W - move forward
     S - move backward
     A - move to the left
@@ -40,6 +40,6 @@
     ] - open the curtain when "_PINNED" is defined in "config.hpp" file
 
     ENTER - reset the camera.
-    ''
+    ```
 
-    - If you change some constants in the config.hpp file, you can see different results.
+- If you change some constants in the config.hpp file, you can see different results.
