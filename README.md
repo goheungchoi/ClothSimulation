@@ -1,6 +1,8 @@
-## Final Project
+# Cloth Simulation
+## Information
     - Author: Goheung Choi
     - Email: choi0740@umn.edu
+    - Description: cloth simulation based on the mass-spring model using parellal computing.
     - External resources: 
         - stb_image v2.27 - public domain image loader - http://nothings.org/stb
         - OpenCL 2.2v - The Khronos Group Inc
