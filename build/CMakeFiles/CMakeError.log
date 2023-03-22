@@ -1,0 +1,175 @@
+Determining if the CL_VERSION_3_0 exist failed with the following output:
+Change Dir: C:/Users/ga1ox/Desktop/ClassMaterials/CSCI5611/Final/FinalProject/ClothSimulation/build/CMakeFiles/CMakeScratch/TryCompile-f99064
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e89cd.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
+  CheckSymbolExists.c
+C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-f99064\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h': No such file or directory [C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-f99064\cmTC_e89cd.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e89cd.dir\Debug\\" /Fd"cmTC_e89cd.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-f99064\CheckSymbolExists.c"
+
+
+File CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_3_0
+  return ((int*)(&CL_VERSION_3_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: C:/Users/ga1ox/Desktop/ClassMaterials/CSCI5611/Final/FinalProject/ClothSimulation/build/CMakeFiles/CMakeScratch/TryCompile-pbtaqg
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f3ac7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
+  CheckSymbolExists.c
+C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-pbtaqg\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h': No such file or directory [C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-pbtaqg\cmTC_f3ac7.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3ac7.dir\Debug\\" /Fd"cmTC_f3ac7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-pbtaqg\CheckSymbolExists.c"
+
+
+File CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: C:/Users/ga1ox/Desktop/ClassMaterials/CSCI5611/Final/FinalProject/ClothSimulation/build/CMakeFiles/CMakeScratch/TryCompile-pveznz
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_82290.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
+  CheckSymbolExists.c
+C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-pveznz\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h': No such file or directory [C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-pveznz\cmTC_82290.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82290.dir\Debug\\" /Fd"cmTC_82290.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-pveznz\CheckSymbolExists.c"
+
+
+File CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: C:/Users/ga1ox/Desktop/ClassMaterials/CSCI5611/Final/FinalProject/ClothSimulation/build/CMakeFiles/CMakeScratch/TryCompile-tsqnhw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6d34d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
+  CheckSymbolExists.c
+C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-tsqnhw\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h': No such file or directory [C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-tsqnhw\cmTC_6d34d.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d34d.dir\Debug\\" /Fd"cmTC_6d34d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-tsqnhw\CheckSymbolExists.c"
+
+
+File CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: C:/Users/ga1ox/Desktop/ClassMaterials/CSCI5611/Final/FinalProject/ClothSimulation/build/CMakeFiles/CMakeScratch/TryCompile-gndvkx
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7d71d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-gndvkx\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h': No such file or directory [C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-gndvkx\cmTC_7d71d.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d71d.dir\Debug\\" /Fd"cmTC_7d71d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-gndvkx\CheckSymbolExists.c"
+
+
+File CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: C:/Users/ga1ox/Desktop/ClassMaterials/CSCI5611/Final/FinalProject/ClothSimulation/build/CMakeFiles/CMakeScratch/TryCompile-l6g12f
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3d317.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
+  CheckSymbolExists.c
+C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-l6g12f\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h': No such file or directory [C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-l6g12f\cmTC_3d317.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d317.dir\Debug\\" /Fd"cmTC_3d317.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-l6g12f\CheckSymbolExists.c"
+
+
+File CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: C:/Users/ga1ox/Desktop/ClassMaterials/CSCI5611/Final/FinalProject/ClothSimulation/build/CMakeFiles/CMakeScratch/TryCompile-hjueqr
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3910f.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3910f.dir\Debug\\" /Fd"cmTC_3910f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-hjueqr\CheckSymbolExists.c"
+C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-hjueqr\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h': No such file or directory [C:\Users\ga1ox\Desktop\ClassMaterials\CSCI5611\Final\FinalProject\ClothSimulation\build\CMakeFiles\CMakeScratch\TryCompile-hjueqr\cmTC_3910f.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
