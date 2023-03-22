@@ -2,7 +2,7 @@
     - Author: Goheung Choi
     - Email: choi0740@umn.edu
     - External resources: 
-        - stb_image - v2.27 - public domain image loader - http://nothings.org/stb
+        - stb_image v2.27 - public domain image loader - http://nothings.org/stb
         - OpenCL 2.2v - The Khronos Group Inc
         - OpenGL 3.2v - The Khronos Group Inc
         - GLFW 3.4 - www.glfw.org
